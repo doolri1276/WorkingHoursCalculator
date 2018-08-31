@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:text="저녁 식대"
+        android:background="@color/colorDeeperSkyBlue"
+        android:padding="@dimen/normal_padding"
+        android:textStyle="bold"
+        android:textSize="@dimen/txt_text"/>
+
+    <DatePicker
+        android:id="@+id/dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:datePickerMode="spinner"
+        android:outlineSpotShadowColor="@color/colorDeeperSkyBlue"
+        android:outlineAmbientShadowColor="@color/colorDeeperSkyBlue"
+        android:calendarTextColor="@color/colorDeeperSkyBlue"
+        android:calendarViewShown="false">
+
+    </DatePicker>
+
+</LinearLayout>

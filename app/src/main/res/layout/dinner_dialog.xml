@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="@dimen/bigger_padding"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/big_padding"
+        android:background="@color/colorDeeperSkyBlue"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="저녁 식대"
+            android:textStyle="bold"
+            android:textSize="@dimen/txt_text"/>
+
+        <EditText
+            android:id="@+id/et_dinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorDeeperSkyBlue"
+            android:textSize="@dimen/txt_text"
+            android:textColor="@color/colorWhite"
+            android:padding="@dimen/small_padding"
+            android:outlineAmbientShadowColor="@color/colorWhite"
+            android:textColorLink="@color/colorWhite"
+            android:textStyle="bold"
+            android:outlineSpotShadowColor="@color/colorWhite"
+            android:inputType="number"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorWhite"/>
+
+    </LinearLayout>
+
+</LinearLayout>
