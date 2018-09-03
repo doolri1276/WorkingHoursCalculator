@@ -259,7 +259,9 @@ public class Card {
 
         }
 
-        if(totalMin<0&&totalMin>=-60) more=0;
+
+
+        if(more<0) more=0;
 
     }
 
